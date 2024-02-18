@@ -1,0 +1,28 @@
+/* .header {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  background: rgb(176, 93, 200);
+  background: linear-gradient(
+    90deg,
+    rgba(176, 93, 200, 1) 13%,
+    rgba(132, 232, 164, 1) 57%,
+    rgba(224, 133, 133, 1) 82%
+  );
+  background-size: 100% 100%; Додана властивість background-size
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 760px) {
+  .header {
+    gap: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header {
+    transition: box-shadow 250ms ease-in-out;
+  }
+  .header:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  }
+} */

@@ -1,0 +1,83 @@
+/* .buttonFilter {
+  border-radius: 50%;
+  font-size: 16px;
+  color: rgb(240, 27, 27);
+  background-color: rgb(250, 181, 181);
+  border: 1px red solid;
+  width: 32px;
+  height: 32px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.buttonEdit {
+  border-radius: 50%;
+  font-size: 16px;
+  color: rgb(96, 96, 96);
+  background-color: rgb(201, 201, 201);
+  border: 1px rgb(87, 87, 87) solid;
+  width: 32px;
+  height: 32px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-left: 10px;
+}
+.input {
+  font-size: 16px;
+}
+.buttons {
+  display: flex;
+  margin-top: 4px;
+  gap: 12px;
+}
+.saveBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px rgb(87, 87, 87) solid;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 4px;
+}
+
+@media only screen and (min-width: 500px) {
+  .input {
+    font-size: 20px;
+  }
+  .buttonFilter,
+  .buttonEdit,
+  .saveBtn {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .buttonFilter {
+    transition: background-color 200ms ease-in-out, transform 200ms,
+      box-shadow 200ms;
+  }
+  .buttonFilter:hover,
+  .buttonFilter:focus {
+    transform: scale(1.1);
+    background-color: rgb(246, 150, 150);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  .buttonEdit {
+    transition: background-color 200ms ease-in-out, transform 200ms,
+      box-shadow 200ms;
+  }
+  .buttonEdit:hover,
+  .buttonEdit:focus {
+    transform: scale(1.1);
+    background-color: rgb(173, 171, 171);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+} */

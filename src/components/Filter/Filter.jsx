@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { setFilter } from '../redux/contactsSlice';
-import { selectError, selectFilter } from '../redux/selectors';
+import { setFilter } from '../redux/contacts/contactsSlice';
+import { selectError, selectFilter } from '../redux/contacts/selectors';
 
 export const Filter = () => {
   const error = useSelector(selectError);

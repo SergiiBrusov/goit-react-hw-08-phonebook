@@ -1,7 +1,11 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useMemo } from 'react';
-import { deleteContact } from '../redux/operations';
-import { selectItems, selectFilter, selectError } from '../redux/selectors';
+import { deleteContact } from '../redux/contacts/operations';
+import {
+  selectItems,
+  selectFilter,
+  selectError,
+} from '../redux/contacts/selectors';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

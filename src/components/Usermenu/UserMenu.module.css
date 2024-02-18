@@ -1,0 +1,43 @@
+.div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.title {
+  color: green;
+  font-size: 12px;
+  background-color: rgb(122, 238, 122);
+  padding: 4px 12px;
+  border: 1px green solid;
+  border-radius: 20px;
+}
+.but {
+  color: rgb(240, 27, 27);
+  font-size: 12px;
+  background-color: rgb(250, 181, 181);
+  padding: 4px 12px;
+  border: 1px red solid;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 760px) {
+  .div {
+    gap: 40px;
+  }
+  .title,
+  .but {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .but {
+    transition: color 200ms ease-in-out, background-color 250ms ease-in-out;
+  }
+  .but:hover,
+  .but:focus {
+    color: red;
+    background-color: rgb(252, 159, 159);
+  }
+}

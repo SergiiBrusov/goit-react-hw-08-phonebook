@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { nanoid } from 'nanoid';
-import { addContact } from '../redux/operations';
-import { selectError, selectItems } from '../redux/selectors';
+import { addContact } from '../redux/contacts/operations';
+import { selectError, selectItems } from '../redux/contacts/selectors';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
